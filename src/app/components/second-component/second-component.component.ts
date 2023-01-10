@@ -12,5 +12,6 @@ export class SecondComponentComponent {
     numero: 6,
     apartament: 121,
   };
+  job = 'Programador';
   stack = ['Java', 'Spring', 'Angular'];
 }
