@@ -12,6 +12,8 @@ import { EventsComponent } from './components/events/events.component';
 import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { ChangeNumber100Component } from './components/change-number100/change-number100.component';
+import { ListRenderComponent } from './components/list-render/list-render.component';
+import { ListSneakersComponent } from './components/list-sneakers/list-sneakers.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ChangeNumber100Component } from './components/change-number100/change-n
     EventsComponent,
     EmitterComponent,
     ChangeNumberComponent,
-    ChangeNumber100Component
+    ChangeNumber100Component,
+    ListRenderComponent,
+    ListSneakersComponent
   ],
   imports: [
     BrowserModule,

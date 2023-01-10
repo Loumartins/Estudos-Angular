@@ -1,0 +1,8 @@
+.snk-list {
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 300px;
+}
+.snk-list ul {
+  list-style: none;
+}
