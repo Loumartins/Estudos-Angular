@@ -11,6 +11,6 @@ export class EventsComponent {
     this.exibir = !this.exibir; // toggle
   }
   exibirAlerta(): void {
-    window.alert('Esta funcionando');
+    window.alert('Funcionamento ok');
   }
 }
