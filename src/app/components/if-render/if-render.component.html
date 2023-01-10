@@ -1,0 +1,12 @@
+<div class="geral">
+  <p>if-render works!</p>
+  <h2 *ngIf="exibir">Isso ira aparecer caso tenha autorização</h2>
+  <h2 *ngIf="nome === 'Luiz Henrique Martins'">Isso irá aparecer caso nome seja Luiz Henrique Martins</h2>
+  <!--Utilização do Else-->
+  <p *ngIf="idade===22 ; else ageNotMatch">A idade precisa ser igual a 22</p>
+  <ng-template #ageNotMatch>
+    <div>
+      <h2>A idade não é igual</h2>
+    </div>
+  </ng-template>
+</div>
