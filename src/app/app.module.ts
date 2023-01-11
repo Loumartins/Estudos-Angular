@@ -14,6 +14,7 @@ import { ChangeNumberComponent } from './components/change-number/change-number.
 import { ChangeNumber100Component } from './components/change-number100/change-number100.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ListSneakersComponent } from './components/list-sneakers/list-sneakers.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ListSneakersComponent } from './components/list-sneakers/list-sneakers.
     ChangeNumberComponent,
     ChangeNumber100Component,
     ListRenderComponent,
-    ListSneakersComponent
+    ListSneakersComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
