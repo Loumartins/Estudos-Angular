@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +16,9 @@ import { ChangeNumber100Component } from './components/change-number100/change-n
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ListSneakersComponent } from './components/list-sneakers/list-sneakers.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { TwoWayExComponent } from './components/two-way-ex/two-way-ex.component';
+import { TwoWayIdadeComponent } from './components/two-way-idade/two-way-idade.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +34,13 @@ import { PipesComponent } from './components/pipes/pipes.component';
     ChangeNumber100Component,
     ListRenderComponent,
     ListSneakersComponent,
-    PipesComponent
+    PipesComponent,
+    TwoWayBindingComponent,
+    TwoWayExComponent,
+    TwoWayIdadeComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

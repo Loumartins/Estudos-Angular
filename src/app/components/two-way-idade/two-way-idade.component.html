@@ -1,0 +1,11 @@
+<div class="geral">
+  <h1>Exercicio</h1>
+  <h2>Utilizando o two way data binding para mostrar idade</h2>
+  <h3>Digite sua idade abaixo</h3>
+  <form action="">
+    <input type="text" [(ngModel)]="idade" name='idade' placeholder="Digite sua idade">
+  </form>
+  <div *ngIf="idade">
+    <p>A sua idade é: {{idade}}</p>
+  </div>
+</div>
